@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clients</title>
+</head>
+<body>
+<div>
+    <h3>Create new client</h3>
+    <form method="post">
+        <input type="text" name="login" placeholder="Enter login">
+        <input type="text" name="password" placeholder="Enter password">
+        <input type="text" name="full_name" placeholder="Enter full name">
+        <input type="radio" name="sex" value="male">Male
+        <input type="radio" name="sex" value="female">Female
+        <button type="submit">Create client</button>
+    </form>
+</div>
+<h1>Clients</h1>
+    {{#clients}}
+        <div>
+            {{full_name}}
+            <a href="/clients/№/show">Show</a>
+            <a href="/clients/№/edit">Edit</a>
+            <a href="/clients/№/delete">Delete</a>
+        </div>
+    {{/clients}}
+</body>
+</html>
