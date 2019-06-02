@@ -4,22 +4,34 @@
     <title>Tickets</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
+    <h3>Create new ticket</h3>
+<form method="post">
+    <input type="number" name="price" placeholder="Enter price">
+    <input type="date" name="date" placeholder="Enter date">
+    <input type="number" name="client_id" placeholder="Enter client_id">
+    <input type="hidden" name="_csrf" value="{{_csrf.token}}" />
+    <button type="submit">Create ticket</button>
+</form>
 <body>
 <h1>Tickets</h1>
 <div>
-    <h3>Create new ticket</h3>
-    <form method="post">
-        <input type="number" name="price" placeholder="Enter price">
-        <input type="date" name="date" placeholder="Enter date">
-        <input type="number" name="client_id" placeholder="Enter client_id">
-        <input type="hidden" name="_csrf" value="{{_csrf.token}}" />
-        <button type="submit">Create ticket</button>
-    </form>
-    <div><a href="/">Main Menu</a></div>
-    <form action="/logout" method="post">
+    {{#tickets}}
+        <table border="1">
+            <th>Holder id</th>
+            <th>Date</th>
+            <th>Price</th>
+            <tr>
+                <td>{{id}}</td>
+                <td>{{date}}</td>
+                <td>{{price}}</td>
+            </tr>
+        </table>
+    {{/tickets}}
+</div>
+<a href="/">Main Menu</a></div>
+<form action="/logout" method="post">
         <input type="hidden" name="_csrf" value="{{_csrf.token}}" />
         <input type="submit" value="Sign Out"/>
     </form>
-</div>
 </body>
 </html>

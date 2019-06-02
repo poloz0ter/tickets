@@ -8,16 +8,28 @@ public class Ticket {
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Integer id;
 
-    private String price;
-    private String date;
-    private Integer client_id;
-
-    public Integer getClient_id() {
-        return client_id;
+    public Ticket() {
     }
 
-    public void setClient_id(Integer client_id) {
-        this.client_id = client_id;
+    public Ticket(String price, String date, Client client) {
+        this.price = price;
+        this.date = date;
+        this.client = client;
+    }
+
+    private String price;
+    private String date;
+
+    @ManyToOne
+    @JoinColumn(name = "client_id")
+    private Client client;
+
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
     }
 
     public Integer getId() {

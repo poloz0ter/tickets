@@ -15,47 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/domain/Client.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tickets.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
-                <element signature="e#1226#1227#0" expanded="true" />
-                <element signature="e#1291#1292#0" expanded="true" />
-                <element signature="e#1351#1352#0" expanded="true" />
-                <element signature="e#1427#1428#0" expanded="true" />
-                <element signature="e#1493#1494#0" expanded="true" />
-                <element signature="e#1581#1582#0" expanded="true" />
-                <element signature="e#1649#1650#0" expanded="true" />
-                <element signature="e#1741#1742#0" expanded="true" />
-                <element signature="e#1797#1798#0" expanded="true" />
-                <element signature="e#1865#1866#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/config/WebSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="289">
+              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -63,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/controller/TicketsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="182">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,45 +36,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/controller/ClientsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="170">
+              <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3340#3341#0" expanded="true" />
+                <element signature="e#3180#3181#0" expanded="true" />
+                <element signature="e#3209#3210#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/clients.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/repos/ClientRepo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/domain/Role.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -147,7 +82,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/edit.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/repos/TicketRepo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/show.mustache" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/domain/Ticket.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/TicketsController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
@@ -155,19 +89,20 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/edit.mustache" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/ClientsController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/tickets.mustache" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/domain/Role.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/registration.mustache" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/controller/RegistrationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/controller/TicketsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/repos/ClientRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/clients.mustache" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.mustache" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/domain/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/controller/ClientsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/domain/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/domain/Ticket.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/clients.mustache" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/repos/ClientRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/tickets/controller/TicketsController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/tickets.mustache" />
       </list>
     </option>
   </component>
@@ -178,7 +113,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="24" />
     <option name="width" value="1366" />
     <option name="height" value="744" />
@@ -352,7 +287,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62656000" />
+    <option name="totallyTimeSpent" value="75121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,7 +300,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24810892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -377,10 +311,10 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8615734" weight="0.39934534" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.8615734" weight="0.39934534" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
@@ -409,51 +343,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/GreetingController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/repos/ClientImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/domain/sdg.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/repos/TicketRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/domain/Ticket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/config/MvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -468,20 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tickets.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -489,20 +364,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/show.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/domain/User.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -520,58 +382,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration.mustache" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/domain/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="51">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/controller/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="33" selection-start-line="33" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/controller/TicketsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/repos/ClientRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/clients.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/controller/RegistrationController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -591,9 +410,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/domain/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/show.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/repos/ClientRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/repos/TicketRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/domain/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
+        <state relative-caret-position="179">
           <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -601,36 +514,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/domain/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/clients.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="-131">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/controller/TicketsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1427#1428#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-            <element signature="e#1741#1742#0" expanded="true" />
-            <element signature="e#1797#1798#0" expanded="true" />
-            <element signature="e#1865#1866#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/tickets/controller/ClientsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="170">
+          <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3340#3341#0" expanded="true" />
+            <element signature="e#3180#3181#0" expanded="true" />
+            <element signature="e#3209#3210#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tickets.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
         </state>
       </provider>
     </entry>

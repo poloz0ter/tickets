@@ -6,7 +6,6 @@ import com.example.tickets.repos.ClientRepo;
 import com.example.tickets.repos.TicketRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -17,33 +16,30 @@ import java.util.*;
 public class TicketsController {
     @Autowired
     private TicketRepo ticketRepo;
+    @Autowired
     private ClientRepo clientRepo;
 
     @GetMapping("/tickets")
     public String tickets( Map<String, Object> model) {
         Iterable<Ticket> tickets = ticketRepo.findAll();
-
         model.put("tickets", tickets);
+
+        Iterable<Client> clients = clientRepo.findAll();
+        model.put("clients", clients);
+
         return "tickets";
     }
 
     @PostMapping("/tickets")
     public String add(@RequestParam String price,
                       @RequestParam String date,
-                      @RequestParam String client_id,
+                      @RequestParam Integer client_id,
                       Map<String, Object> model) {
-        int intId = Integer.parseInt(client_id);
-        Optional<Client> optClient = clientRepo.findById(intId);
+        Client client = clientRepo.findById(client_id).get();
+        Ticket ticket = new Ticket(price, date, client);
 
-        if (optClient.isPresent()) {
-            Client client = optClient.get();
-            Ticket ticket = new Ticket(price, date);
-            ticket.setClient_id(client.getId());
-            ticketRepo.save(ticket);
-            model.put("ticket", ticket);
-        } else {
-            System.out.println("Client not found");
-        }
+        ticketRepo.save(ticket);
+        model.put("ticket", ticket);
 
         return "redirect:/tickets";
     }
