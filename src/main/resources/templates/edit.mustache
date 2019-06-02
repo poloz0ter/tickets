@@ -2,14 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Clients</title>
+    <title>Edit</title>
 </head>
 <body>
-{{#message}}
-    {{.}}
-{{/message}}
 <div>
-    <h3>Create new client</h3>
+    <h3>Edit client</h3>
     <form method="post">
         <input type="text" name="login" placeholder="Enter login">
         <input type="text" name="password" placeholder="Enter password">
@@ -20,19 +17,6 @@
         <button type="submit">Create client</button>
     </form>
 </div>
-<h1>Clients</h1>
-{{#clients}}
-    <div>
-        {{full_name}}
-        <a href="/clients/show?id={{id}}">Show</a>
-        <a href="/clients/edit?id={{id}}">Edit</a>
-        <a href="/clients/delete?id={{id}}">Delete</a>
-    </div>
-{{/clients}}
-<div><a href="/">Main Menu</a> </div>
-<form action="/logout" method="post">
-    <input type="hidden" name="_csrf" value="{{_csrf.token}}" />
-    <input type="submit" value="Sign Out"/>
-</form>
+<div><a href="/clients">Go Back</a></div>
 </body>
 </html>
